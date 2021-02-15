@@ -1,9 +1,16 @@
 import * as React from "react";
+import "../styles/styles.scss";
 
-// markup
+import Header from "../components/header";
+import TextBanner from "../components/text-banner";
+
 const IndexPage = () => {
-  return;
-  <html></html>;
+  return (
+    <html lang="en">
+      <Header />
+      <TextBanner />
+    </html>
+  );
 };
 
 export default IndexPage;
