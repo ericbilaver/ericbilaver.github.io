@@ -7,6 +7,9 @@ $black: #000;
 $maroon: #83333e;
 $off-white: #f2f4f5;
 
+
+
+
 html,
 body {
   font-family: $font;
@@ -141,4 +144,60 @@ header {
             height: auto;
         }
     }
+}
+
+
+@media screen and (max-width: 600px) {
+     
+    header {
+        //background-color: blue;
+        height: 4em;
+        margin-top: 1em;
+    }
+    .about-list {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 2em;
+        justify-content: center;
+        .title {
+            font-weight: bold;
+        }
+    }
+    .accomplishment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: auto;
+        padding-bottom: auto;
+        flex-direction: column;
+        .picture {
+            justify-content: right;
+            width: 50px;
+            height: auto;
+            border: black;
+        }
+        .text-field {
+            text-align: center;
+            padding-left: 1em;
+            //margin-right: 15em;
+            .title {
+                
+                font-weight: bold;
+                font-size: large;
+            }
+            .dates {
+                
+                margin: auto;
+                font-weight: normal;
+            }
+        }
+    }
+    
+    //contact
+.contact-container {
+    .contact-text {
+        margin: 2em;
+        text-align: center;
+    }
+  }
 }
