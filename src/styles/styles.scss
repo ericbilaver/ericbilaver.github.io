@@ -17,7 +17,7 @@ body {
 
 //header
 header {
-    border-style: solid;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,6 +67,7 @@ header {
 
 //about list
 .about-list {
+    /*
     width: 80%;
     padding-left: 15%;
     padding-top: 5%;
@@ -74,6 +75,9 @@ header {
     margin-left: 8em;
     margin-right: 8em;
     margin-top: auto;
+    */
+    margin-left: 20em;
+    margin-right: 20em;
     .title {
         font-weight: bold;
     }
@@ -96,7 +100,7 @@ header {
     }
     .text-field {
         padding-left: 6em;
-        margin-right: 30em;
+        //margin-right: 15em;
         .title {
             font-weight: bold;
             font-size: large;
