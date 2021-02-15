@@ -2,7 +2,11 @@ import React from "react";
 import Header from "../components/header";
 
 const AboutPage = () => {
-  return <Header />;
+  return (
+    <html>
+      <Header />
+    </html>
+  );
 };
 
 export default AboutPage;

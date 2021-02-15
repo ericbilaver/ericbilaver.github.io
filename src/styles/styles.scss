@@ -15,6 +15,10 @@ body {
   margin: 0;
 }
 
+hr {
+    width: 85%;
+}
+
 //header
 header {
     
@@ -111,3 +115,23 @@ header {
     }
 }
 
+//contact
+.contact-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .resume-link {
+        font-weight: 700;
+        font-size: 1.25em;
+        text-decoration: underline;
+        letter-spacing: 1.5px;
+        color: $black;
+    }
+    a { 
+        img {
+            width:8em;
+            height: auto;
+        }
+    }
+}

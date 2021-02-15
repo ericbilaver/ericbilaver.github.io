@@ -3,18 +3,21 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
-      <div className="header-left">
-        <Link to="/">ERIC BILAVER</Link>
-      </div>
-      <div className="header-right">
-        <nav>
-          <Link to="/about">About</Link>
-          <Link to="/work">Work</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </div>
-    </header>
+    <div>
+      <header>
+        <div className="header-left">
+          <Link to="/">ERIC BILAVER</Link>
+        </div>
+        <div className="header-right">
+          <nav>
+            <Link to="/about">About</Link>
+            <Link to="/work">Work</Link>
+            <Link to="/contact">Contact</Link>
+          </nav>
+        </div>
+      </header>
+      <hr />
+    </div>
   );
 };
 
