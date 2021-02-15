@@ -7,6 +7,7 @@ import TextBanner from "../components/text-banner";
 const IndexPage = () => {
   return (
     <html lang="en">
+      <title>Eric Bilaver</title>
       <Header />
       <TextBanner />
     </html>

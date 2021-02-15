@@ -1,7 +1,5 @@
 import React from "react";
 
-import Accomp from "../components/accomplishment";
-
 const AboutList = (props) => {
   return (
     <div className="about-list">

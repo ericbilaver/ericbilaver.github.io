@@ -3,7 +3,8 @@ import Header from "../components/header";
 
 const AboutPage = () => {
   return (
-    <html>
+    <html lang="EN">
+      <title>About</title>
       <Header />
     </html>
   );

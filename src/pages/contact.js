@@ -6,7 +6,8 @@ import GH from "../images/GH.png";
 
 const Contact = () => {
   return (
-    <html>
+    <html lang="EN">
+      <title>Contact</title>
       <Header />
       <div className="contact-container">
         <h1>Say Hi!</h1>
@@ -26,12 +27,12 @@ const Contact = () => {
         <br />
         <br />
         <a href="https://www.linkedin.com/in/ericbilaver/">
-          <img classname="image" src={LI} />
+          <img classname="image" alt="LinkedIn" src={LI} />
         </a>
         <br />
         <br />
         <a href="https://github.com/ericbilaver">
-          <img classname="image" src={GH} />
+          <img classname="image" alt="GitHub" src={GH} />
         </a>
       </div>
     </html>

@@ -9,6 +9,7 @@ import NDLogo from "../images/nd_logo.png";
 const Work = () => {
   return (
     <html lang="en">
+      <title>Work</title>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
