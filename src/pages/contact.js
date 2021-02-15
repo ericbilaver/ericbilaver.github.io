@@ -20,7 +20,7 @@ const Contact = () => {
           My Resume
         </a>
         <br />
-        <a className="email" href="ericbilaver@gmail.com">
+        <a className="email" href="mailto:ericbilaver@gmail.com">
           ericbilaver@gmail.com
         </a>
         <br />
