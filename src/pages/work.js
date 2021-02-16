@@ -96,6 +96,9 @@ const Work = () => {
           ]}
         />
       </AboutList>
+      <br />
+      <hr />
+      <br />
       <Footer />
     </html>
   );

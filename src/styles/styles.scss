@@ -19,11 +19,40 @@ hr {
   width: 85%;
 }
 
+//@at-root
+/*
+.text-banner {
+  height: 100%;
+  width: 100%;
+  animation: animateBg 14s linear infinite;
+
+  background-image: linear-gradient(
+    90deg,
+    #ffffff,
+    #cccccc,
+    #6eb2d4,
+    #ffffff,
+    #cccccc
+  );
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+*/
+//@at-root
+
 //header
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
   height: 5em;
   margin: auto;
   .header-left {
@@ -55,10 +84,15 @@ header {
 //main banner text
 
 .text-banner {
+  z-index: 10;
   height: 100%;
   width: 100%;
   position: relative;
   margin-top: 15em;
+  //padding-top: 25%;
+  //padding-bottom: 40%;
+  overflow: hidden;
+  mix-blend-mode: difference;
   font-size: larger;
   .bottom-text {
     font-weight: bold;
@@ -67,17 +101,12 @@ header {
 
 //about list
 .about-list {
-  /*
-    width: 80%;
-    padding-left: 15%;
-    padding-top: 5%;
-    
-    margin-left: 8em;
-    margin-right: 8em;
-    margin-top: auto;
-    */
   margin-left: 20em;
   margin-right: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
   .title {
     font-weight: bold;
   }
@@ -88,7 +117,7 @@ header {
 .accomplishment {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   padding-top: auto;
   padding-bottom: auto;
   .picture {

@@ -9,6 +9,7 @@ const IndexPage = () => {
     <html lang="en">
       <title>Eric Bilaver</title>
       <Header />
+      <div className="animation"></div>
       <TextBanner />
     </html>
   );

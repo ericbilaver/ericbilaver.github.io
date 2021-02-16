@@ -10,6 +10,7 @@ const Footer = () => {
         <img alt="GitHub" src={GH} />
       </div>
       <p>Eric Bilaver 2021</p>
+      <br />
     </footer>
   );
 };
