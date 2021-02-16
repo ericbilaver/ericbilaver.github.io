@@ -2,7 +2,6 @@ import React from "react";
 
 const Accomp = (props) => {
   let descArray = props.desc; //array of indiv. strings
-  console.log(descArray);
 
   return (
     <div className="accomplishment">
