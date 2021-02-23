@@ -303,5 +303,10 @@ footer {
       width: auto;
       height: 100px;
     }
+    .skills {
+      .skills-table {
+        flex-direction: column;
+      }
+    }
   }
 }
