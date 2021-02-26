@@ -1,2 +1,2 @@
-<h1>My Portfolio Site</h1>
-Made with React and Gatsby
+<h1>Portfolio Site</h1>
+Stack: React and Gatsby
