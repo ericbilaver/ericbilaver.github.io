@@ -5,7 +5,9 @@ const Accomp = (props) => {
 
   return (
     <div className="accomplishment">
-      <img src={props.pictureName} alt="Company" className="picture" />
+      <a href={props.link}>
+        <img src={props.pictureName} alt="Company" className="picture" />
+      </a>
       <div className="text-field">
         <p className="title">{props.title}</p>
         <p className="dates">{props.dates}</p>

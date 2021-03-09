@@ -48,16 +48,19 @@ const Work = () => {
       <AboutList title="VOLUNTEERING & PERSONAL PROJECTS">
         <Accomp
           pictureName={DeltaHacks}
+          link="https://devpost.com/software/quil"
           dates="Mar 2021"
           title="DeltaHacks 2021"
           desc={[
             '• Created a productivity site to that serves as an "all-in-one" project manager, to-do list, and effective note-taking software ("Quil")',
             "• Collaborated with 4 friends over a 36 hour period to develop a functioning React.js site with a CKEditor implementation",
+            "• Worked on front-end development as well as logo design using Figma",
           ]}
         />
         <Accomp
           pictureName={HTN}
           dates="Jan 2021"
+          link="https://devpost.com/software/hack-the-north-2020-04oqxr"
           title="Hack the North 2020"
           desc={[
             "• Worked in a team of 4 to create an exercise-focused social media site with JavaScript, (S)CSS, and HTML in response to COVID-19 limitations (“VideoGym”) over a 36 hour period",
