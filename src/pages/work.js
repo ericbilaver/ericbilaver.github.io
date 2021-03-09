@@ -3,6 +3,7 @@ import AboutList from "../components/about-list";
 import Header from "../components/header";
 import Accomp from "../components/accomplishment";
 import Footer from "../components/footer";
+import "../styles/styles.scss";
 
 import MeroLogo from "../images/mero_logo.png";
 import NDLogo from "../images/nd_logo.png";
