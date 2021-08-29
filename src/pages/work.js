@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 import "../styles/styles.scss";
 
 import MeroLogo from "../images/mero_logo.png";
+import AHeadLogo from "../images/ahead.jpeg";
 import NDLogo from "../images/nd_logo.png";
 import HTN from "../images/HTN.jpg";
 import ECOO from "../images/ECOO.png";
@@ -26,6 +27,7 @@ const Work = () => {
       <AboutList title="WORK EXPERIENCE">
         <Accomp
           pictureName={MeroLogo}
+          link="https://mero.co/"
           dates="Aug 2020 - Dec 2020"
           title="Senior Implementation Specialist"
           desc={[
@@ -37,12 +39,26 @@ const Work = () => {
         />
         <Accomp
           pictureName={MeroLogo}
+          link="https://mero.co/"
           dates="Feb 2020 - Apr 2020"
           title="Junior Implementation Specialist"
           desc={[
             "• Monitored product stock by designing a custom storage tracking app while also working with distributors to decrease manufacturing costs over 40%",
             "• Designed and created bi-weekly and quarterly business reports for clients",
             "• Participated in IoT product deployments in 10+ buildings across the GTA with a small team",
+          ]}
+        />
+        <Accomp
+          pictureName={AHeadLogo}
+          link="https://www.aheadsimulations.com/"
+          dates="May 2021 - Aug 2021"
+          title="Developer Intern"
+          desc={[
+            "• Designed and implemented Vue components and Python scripts for an audiology training platform (CARL)",
+            "• Configured, tested, and troubleshot various low-level protocols (I2S, I2C, SPI) on the Jetson Nano system",
+            "• Soldered SMD components and collaborated with team members to test various PCB boards",
+            "• Wrote documentation and workflows for hardware, software, boot protocols, and future interns",
+            "• Contributed to software production planning and project management for future product launch",
           ]}
         />
       </AboutList>

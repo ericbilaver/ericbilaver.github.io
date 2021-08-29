@@ -12,8 +12,7 @@ const Contact = () => {
       <div className="contact-container">
         <h1>Say Hi!</h1>
         <p className="contact-text">
-          Right now, I'm looking for an internship for Summer 2021. Feel free to
-          reach out if you have any questions!{" "}
+          Feel free to reach out if you have any questions!{" "}
         </p>
 
         <br />
