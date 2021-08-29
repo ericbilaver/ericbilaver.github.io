@@ -26,6 +26,19 @@ const Work = () => {
       <Header />
       <AboutList title="WORK EXPERIENCE">
         <Accomp
+          pictureName={AHeadLogo}
+          link="https://www.aheadsimulations.com/"
+          dates="May 2021 - Aug 2021"
+          title="Developer Intern"
+          desc={[
+            "• Designed and implemented Vue components and Python scripts for an audiology training platform (CARL)",
+            "• Configured, tested, and troubleshot various low-level protocols (I2S, I2C, SPI) on the Jetson Nano system",
+            "• Soldered SMD components and collaborated with team members to test various PCB boards",
+            "• Wrote documentation and workflows for hardware, software, boot protocols, and future interns",
+            "• Contributed to software production planning and project management for future product launch",
+          ]}
+        />
+        <Accomp
           pictureName={MeroLogo}
           link="https://mero.co/"
           dates="Aug 2020 - Dec 2020"
@@ -46,19 +59,6 @@ const Work = () => {
             "• Monitored product stock by designing a custom storage tracking app while also working with distributors to decrease manufacturing costs over 40%",
             "• Designed and created bi-weekly and quarterly business reports for clients",
             "• Participated in IoT product deployments in 10+ buildings across the GTA with a small team",
-          ]}
-        />
-        <Accomp
-          pictureName={AHeadLogo}
-          link="https://www.aheadsimulations.com/"
-          dates="May 2021 - Aug 2021"
-          title="Developer Intern"
-          desc={[
-            "• Designed and implemented Vue components and Python scripts for an audiology training platform (CARL)",
-            "• Configured, tested, and troubleshot various low-level protocols (I2S, I2C, SPI) on the Jetson Nano system",
-            "• Soldered SMD components and collaborated with team members to test various PCB boards",
-            "• Wrote documentation and workflows for hardware, software, boot protocols, and future interns",
-            "• Contributed to software production planning and project management for future product launch",
           ]}
         />
       </AboutList>
