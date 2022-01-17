@@ -1,5 +1,7 @@
 const ghpages = require("gh-pages");
 
+// npm run deploy
+
 // replace with your repo url
 ghpages.publish(
   "public",
