@@ -1,6 +1,6 @@
 import React from "react";
-import LI from "/home/eric/Code/portfolio1.1/src/images/LI-white.png";
-import GH from "/home/eric/Code/portfolio1.1/src/images/GH-white.png";
+import LI from "../images/LI-white.png";
+import GH from "../images/GH-white.png";
 
 const Footer = () => {
   return (

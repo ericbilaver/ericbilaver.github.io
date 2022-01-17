@@ -22,5 +22,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/ericbilaver.github.io",
+  //pathPrefix: "ericbilaver.github.io/ericbilaver.github.io",
 };

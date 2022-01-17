@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header";
-import Resume from "../images/EricResumeWaterloo2A2.0.pdf";
-import LI from "/home/eric/Code/portfolio1.1/src/images/LI-In-Bug.png";
+import Resume from "../images/EricResumeWaterloo2B2.0.pdf";
+import LI from "../images/LI-In-Bug.png";
 import GH from "../images/GH.png";
 
 const Contact = () => {
@@ -12,8 +12,7 @@ const Contact = () => {
       <div className="contact-container">
         <h1>Say Hi!</h1>
         <p className="contact-text">
-          Right now, I'm looking for an internship for Summer 2021. Feel free to
-          reach out if you have any questions!{" "}
+          Feel free to reach out if you have any questions!{" "}
         </p>
 
         <br />
