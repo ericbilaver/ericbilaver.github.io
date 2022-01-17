@@ -7,7 +7,7 @@ const TextBanner = () => {
         <center className="top-text">Hi! I'm Eric</center>
       </div>
       <div>
-        <center className="bottom-text">See what I'm building</center>
+        <center className="bottom-text">See what I'm working on</center>
       </div>
     </div>
   );
