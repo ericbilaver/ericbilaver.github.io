@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Resume from "../images/EricResumeWaterloo2B2.0.pdf";
-import LI from "/home/eric/Code/portfolio1.1/src/images/LI-In-Bug.png";
+import LI from "../images/LI-In-Bug.png";
 import GH from "../images/GH.png";
 
 const Contact = () => {
