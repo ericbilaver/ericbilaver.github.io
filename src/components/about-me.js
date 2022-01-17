@@ -11,7 +11,7 @@ const AboutMe = () => {
       <img src={headShot} alt="headshot" />
       <p className="init-title">Hi, I'm Eric</p>
       <p className="body1">
-        I'm a 2nd year computer engineer at the University of Waterloo
+        I'm a 3rd year computer engineer at the University of Waterloo
       </p>
       <div className="skills">
         <p className="title">Skills</p>

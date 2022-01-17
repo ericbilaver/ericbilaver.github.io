@@ -6,8 +6,16 @@ const Footer = () => {
   return (
     <footer>
       <div className="images">
-        <img alt="LinkedIn" src={LI} />
-        <img alt="GitHub" src={GH} />
+        <div>
+          <a href="https://www.linkedin.com/in/ericbilaver/">
+            <img alt="LinkedIn" src={LI} />
+          </a>
+        </div>
+        <div>
+          <a href="https://github.com/ericbilaver">
+            <img alt="GitHub" src={GH} />
+          </a>
+        </div>
       </div>
       <p>Eric Bilaver 2021</p>
       <br />

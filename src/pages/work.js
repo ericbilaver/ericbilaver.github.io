@@ -14,6 +14,7 @@ import UW from "../images/UW.png";
 import GA from "../images/GA.png";
 import MYSQL from "../images/MySQL.jpg";
 import DeltaHacks from "../images/DeltaHacks.png";
+import OP from "../images/op.png"
 
 const Work = () => {
   return (
@@ -25,6 +26,17 @@ const Work = () => {
       ></meta>
       <Header />
       <AboutList title="WORK EXPERIENCE">
+      <Accomp
+          pictureName={OP}
+          link="https://1password.com/"
+          dates="Jan 2022 - Current"
+          title="Junior Developer (Billing)"
+          desc={[
+            "• Implement and improve features for the 1Password web client",
+            "• Still working so TBD!",
+            
+          ]}
+        />
         <Accomp
           pictureName={AHeadLogo}
           link="https://www.aheadsimulations.com/"
