@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-import Resume from "../images/EricResumeWaterloo2B2.0.pdf";
+import Resume from "../images/EricResumeWaterloo3B.pdf";
 import LI from "../images/LI-In-Bug.png";
 import GH from "../images/GH.png";
 

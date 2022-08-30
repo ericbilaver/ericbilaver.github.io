@@ -29,12 +29,13 @@ const Work = () => {
       <Accomp
           pictureName={OP}
           link="https://1password.com/"
-          dates="Jan 2022 - Current"
+          dates="Jan 2022 - Apr 2022"
           title="Junior Developer (Billing)"
           desc={[
-            "• Implement and improve features for the 1Password web client",
-            "• Still working so TBD!",
-            
+            "•	Worked with senior developers to re-architect billing process into a single payment window facing $120M+ in annual sales",
+            "•	Assisted in creating RESTful APIs that connect front-end React code to back-end Go code to service over 90,000 business customers’ billing requests",
+            "•	Tested code and solved bugs throughout codebase, reducing code bloat and improving overall performance",
+            "•	Refactored billing team intern documentation to better summarize all business terms and processes into an easy-to-read document"
           ]}
         />
         <Accomp
